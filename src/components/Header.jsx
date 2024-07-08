@@ -1,6 +1,6 @@
 import './header.css'
 import { useState } from 'react';
-import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap';
+import { Navbar, Nav, Container, Offcanvas, NavDropdown } from 'react-bootstrap';
 import { LuUserCircle2, LuHeart, LuShoppingBag, LuSearch } from "react-icons/lu";
 
 export default function Header() {
@@ -11,14 +11,24 @@ export default function Header() {
     return (
         <header>
             <div className="banner">Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a href="#">Registrati adesso</a></div>
-            <Navbar expand="md" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home"><img src="/img/logo.png" alt="code circus logo" /></Navbar.Brand>
+                    <Navbar.Brand href="#"><img src="/img/logo.png" alt="code circus logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={toggleShow} />
+
                     <Navbar.Collapse id="basic-navbar-nav" className="d-none">
-                        <Nav className="m-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav className="m-auto gap-3 nav_links">
+                            <Nav.Link href="#" className='currentPage'>Home</Nav.Link>
+                            <NavDropdown title="Corsi" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#">
+                                    Another action
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="#">Something</NavDropdown.Item>
+                            </NavDropdown>
+                            <Nav.Link href="#">Eventi</Nav.Link>
+                            <Nav.Link href="#">Contatti</Nav.Link>
+                            <Nav.Link href="#" className='text-decoration-underline'>Registrati</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <div className='social d-flex gap-3'>

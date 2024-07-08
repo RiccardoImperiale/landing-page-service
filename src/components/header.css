@@ -10,14 +10,26 @@ header {
         }
     }
 
+    .nav-link {
+        color: var(--cc-dark);
+        font-size: .8rem;
+        font-weight: var(--cc-font-bold);
+        text-transform: uppercase;
+    }
+
+    .currentPage {
+        color: var(--cc-accent-secondary);
+    }
+
     .social {
         a {
             color: var(--cc-dark);
+            font-size: 1.2rem;
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .social {
         width: 100%;
     }
