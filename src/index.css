@@ -9,6 +9,7 @@
   --cc-font-primary: "Inter", sans-serif;
   --cc-font-regular: 300;
   --cc-font-bold: 600;
+  --hero-background-image: url('/img/billboard-bg.png');
 }
 
 body {
