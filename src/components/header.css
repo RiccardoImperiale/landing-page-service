@@ -1,0 +1,12 @@
+header {
+    .banner {
+        background-color: var(--cc-accent-primary);
+        color: var(--cc-light);
+        text-align: center;
+        padding: .8rem 0;
+
+        a {
+            color: var(--cc-light);
+        }
+    }
+}
