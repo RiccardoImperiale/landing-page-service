@@ -1,8 +1,18 @@
-# React + Vite
+# Codingcircus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Milestone 1
+- Inspect designer pdf 
+- Identify basic page structure
+- Add html markup 
 
-Currently, two official plugins are available:
+### Milestone 2
+- Integrate `normalize.css`
+- Define root variables
+- Apply styling, beginning with mobile-first approach.
+- Implement `offcanvas` Bootstrap for the mobile menu
+- Integrate assets
+- Implement media queries
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Milestone 3
+- Implement JavaScript functionalities
+- Integrate `swiper.js` for the mobile slider
