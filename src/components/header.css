@@ -9,4 +9,16 @@ header {
             color: var(--cc-light);
         }
     }
+
+    .social {
+        a {
+            color: var(--cc-dark);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .social {
+        width: 100%;
+    }
 }
