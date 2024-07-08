@@ -1,0 +1,41 @@
+.stats {
+    padding: 3rem 0;
+
+    .card {
+        padding: 3rem;
+        border: none;
+        box-shadow: 5px 5px 15px rgba(164, 164, 164, 0.346);
+        text-align: center;
+        margin: 2rem 0;
+        border-radius: 1rem;
+
+        h3 {
+            color: var(--cc-accent-primary);
+            font-weight: 800;
+        }
+
+        h4 {
+            font-size: 1.3rem;
+            font-weight: var(--cc-font-bold);
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .stats {
+        padding: 0;
+        display: flex;
+        gap: 1rem;
+        transform: translateY(-50%);
+
+        .card {
+            width: calc(100% / 4);
+            padding: 3rem 2rem;
+
+            h4 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
