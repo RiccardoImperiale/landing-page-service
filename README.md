@@ -1,4 +1,4 @@
-# Codingcircus Landing Page
+# Codecircus Landing Page
 
 ### Milestone 1
 - Inspect designer pdf 
