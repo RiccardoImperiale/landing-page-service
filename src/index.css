@@ -46,6 +46,13 @@ h6 {
   border-radius: 2rem;
 }
 
+.container_sm {
+  max-width: 1200px;
+  background-color: rebeccapurple;
+  width: 80%;
+  margin: auto;
+}
+
 @media (min-width: 991px) {
   h2 {
     font-size: 2.5rem;
