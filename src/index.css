@@ -16,3 +16,31 @@ body {
   font-family: var(--cc-font-primary);
   font-weight: var(--cc-font-regular);
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: var(--cc-font-bold);
+  padding-bottom: .5rem;
+}
+
+h5 {
+  color: var(--cc-accent-primary);
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+
+.btn_secondary {
+  background-color: var(--cc-accent-secondary);
+  text-transform: uppercase;
+  border: none;
+  padding: 1.2rem 3rem;
+  color: var(--cc-light);
+  font-weight: var(--cc-font-bold);
+  border-radius: 2rem;
+}
+
+@media (min-width: 991px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
