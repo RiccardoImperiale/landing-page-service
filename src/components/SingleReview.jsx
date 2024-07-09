@@ -1,3 +1,4 @@
+import './singlereview.css'
 export default function SingleReview() {
     return (
         <div className="review">
