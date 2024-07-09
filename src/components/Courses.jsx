@@ -14,7 +14,9 @@ export default function Courses() {
                 <div className="courses_list">
                     {courses.map(course => <CourseCard key={course.id} course={course} />)}
                 </div>
-                <button className="btn_secondary">guarda tutto</button>
+                <div className='text-center'>
+                    <button className="btn_secondary">guarda tutti i corsi</button>
+                </div>
             </div>
         </section>
     )
