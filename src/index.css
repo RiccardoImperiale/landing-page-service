@@ -29,6 +29,13 @@ h5 {
   padding-bottom: .5rem;
 }
 
+h6 {
+  font-weight: var(--cc-font-bold);
+  color: var(--cc-dark);
+  font-size: 1.3rem;
+  margin: 0;
+}
+
 .btn_secondary {
   background-color: var(--cc-accent-secondary);
   text-transform: uppercase;
