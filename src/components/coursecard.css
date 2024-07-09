@@ -1,7 +1,9 @@
 .course_card {
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 5px 5px 15px rgba(164, 164, 164, 0.346);
+    box-shadow: 5px 5px 10px rgba(187, 187, 187, 0.346);
+    background-color: var(--cc-light);
+    margin-bottom: 2rem;
 
     .card_image {
         width: 100%;
@@ -56,5 +58,11 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width: 991px) {
+    .course_card {
+        width: calc(100% / 4 - 3rem / 4);
     }
 }

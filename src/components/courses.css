@@ -9,3 +9,13 @@
 
     }
 }
+
+@media (min-width: 991px) {
+    .courses {
+        .courses_list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+}

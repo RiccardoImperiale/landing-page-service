@@ -32,31 +32,32 @@ const courses = [
     }, {
         id: 5,
         title: 'Cyberpunk',
-        image: 'item4.jpg',
+        image: 'item5.jpg',
         alt: 'cyberpunk illustration',
         category: 'story',
         author: 'Dante Alighieri',
     }, {
         id: 6,
         title: 'Pensiero Positivo E Codice',
-        image: 'item5.jpg',
+        image: 'item6.jpg',
         alt: 'positive thinking concept depicted in an astract illustration with symbols end codes',
         category: 'coding',
         author: 'Paperino',
     }, {
         id: 7,
         title: 'Scrivere Codice In Rima',
-        image: 'item5.jpg',
+        image: 'item7.jpg',
         alt: 'black and white illustration of a bearded man in a suit typing on a computer while holding a pen',
         category: 'storia',
         author: 'Ugo Foscolo',
     }, {
         id: 8,
         title: 'Dalla A Alla Z',
-        image: 'item5.jpg',
+        image: 'item8.jpg',
         alt: 'intricate digital typography artwork featuring a maze and alphabet words',
         category: 'storia',
         author: 'Jeff Bezos',
+        badge: 'Sale'
     }
 ]
 
