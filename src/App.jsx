@@ -2,6 +2,7 @@ import AboutUs from "./components/AboutUs"
 import CallToAction from "./components/CallToAction"
 import Categories from "./components/Categories"
 import Courses from "./components/Courses"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Reviews from "./components/Reviews"
@@ -27,6 +28,7 @@ function App() {
                 <Steps />
                 <CallToAction />
             </main>
+            <Footer />
         </>
     )
 }
