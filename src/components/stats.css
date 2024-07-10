@@ -8,10 +8,21 @@
         text-align: center;
         margin: 2rem 0;
         border-radius: 1rem;
+        transition: .25s ease;
+
+        &:hover {
+            background-color: var(--cc-accent-secondary);
+            color: var(--cc-light);
+        }
+
+        &:hover h3 {
+            color: var(--cc-light);
+        }
 
         h3 {
             color: var(--cc-accent-primary);
             font-weight: 800;
+            transition: .25s ease;
         }
 
         h4 {

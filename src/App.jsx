@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Reviews from "./components/Reviews"
 import Stats from "./components/Stats"
 import Teachers from "./components/Teachers"
+import Values from "./components/Values"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <Courses />
                 <Reviews />
                 <Teachers />
+                <Values />
             </main>
         </>
     )

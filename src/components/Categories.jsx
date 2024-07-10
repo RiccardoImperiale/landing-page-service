@@ -8,8 +8,10 @@ export default function Categories() {
         <section className="categories">
             <div className="container">
                 <div className="section_title">
-                    <h5>Scegli la categoria di corsi dalla quale vuoi iniziare</h5>
-                    <h2>Categorie Popolari</h2>
+                    <div>
+                        <h5>Scegli la categoria di corsi dalla quale vuoi iniziare</h5>
+                        <h2>Categorie Popolari</h2>
+                    </div>
                     <button className="btn_secondary">guarda tutto</button>
                 </div>
                 <div className="categories_list">
