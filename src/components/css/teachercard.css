@@ -8,6 +8,33 @@
     .top {
         border-radius: .6rem;
         overflow: hidden;
+        position: relative;
+
+        .social {
+            visibility: hidden;
+            opacity: 0;
+            transition: .5s ease;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: var(--cc-accent-secondary);
+            padding: .5rem .2rem;
+            display: flex;
+            flex-direction: column;
+            gap: .2rem;
+
+            path {
+                fill: white;
+            }
+        }
+
+        &:hover .social {
+            visibility: visible;
+            opacity: 1;
+
+        }
+
+
 
         img {
             width: 100%;
