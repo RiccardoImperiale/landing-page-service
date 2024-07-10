@@ -5,6 +5,16 @@ footer {
 
         .social {
             padding-bottom: 2rem;
+
+            .icons {
+                padding-top: 1rem;
+                display: flex;
+                gap: .8rem;
+
+                path {
+                    fill: rgb(129, 129, 129);
+                }
+            }
         }
 
         .footer_links {
