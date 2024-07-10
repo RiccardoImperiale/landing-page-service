@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Reviews from "./components/Reviews"
 import Stats from "./components/Stats"
+import Steps from "./components/Steps"
 import Teachers from "./components/Teachers"
 import Values from "./components/Values"
 
@@ -22,6 +23,7 @@ function App() {
                 <Reviews />
                 <Teachers />
                 <Values />
+                <Steps />
             </main>
         </>
     )

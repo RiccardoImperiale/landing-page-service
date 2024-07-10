@@ -13,7 +13,6 @@ export default function Values() {
     return (
         <section className="values">
             <div className="container">
-
                 <div className="section_title">
                     <h5>Valori aggiunti</h5>
                     <h2>I Nostri Corsi Piacciono Perché...</h2>
@@ -48,7 +47,6 @@ export default function Values() {
                         </li>
                     </ul>
                 </div>
-
             </div>
         </section >
     )
