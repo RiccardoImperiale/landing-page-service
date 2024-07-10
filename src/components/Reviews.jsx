@@ -53,7 +53,7 @@ export default function Reviews() {
                     {reviews.map(review => {
                         return (
                             <SwiperSlide key={review.id}>
-                                <SingleReview review={review.review} avatar={review.avatar} author={review.author} profession={review.profession} />
+                                <SingleReview review={review.review} avatar={review.avatar} author={review.author} profession={review.profession} alt={review.alt} />
                             </SwiperSlide>
                         )
                     })}

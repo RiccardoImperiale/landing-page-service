@@ -1,5 +1,5 @@
 import './singlereview.css'
-export default function SingleReview({ author, review, profession, avatar }) {
+export default function SingleReview({ author, review, profession, avatar, alt }) {
     return (
         <div className="review">
             <div className="top">
@@ -7,7 +7,7 @@ export default function SingleReview({ author, review, profession, avatar }) {
             </div>
             <div className="bottom">
                 <div className="avatar">
-                    <img src={`./img/${avatar}.jpg`} alt="picture of the reviewer" />
+                    <img src={`./img/${avatar}.jpg`} alt={alt} />
                 </div>
                 <div className="reviewer_info">
                     <h6>{author}</h6>

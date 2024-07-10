@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Reviews from "./components/Reviews"
 import Stats from "./components/Stats"
+import Teachers from "./components/Teachers"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <Categories />
                 <Courses />
                 <Reviews />
+                <Teachers />
             </main>
         </>
     )
