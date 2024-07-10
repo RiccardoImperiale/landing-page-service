@@ -1,4 +1,4 @@
-import './steps.css'
+import './css/steps.css'
 import steps from '../data/steps.js'
 export default function Steps() {
     return (

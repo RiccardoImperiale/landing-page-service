@@ -1,4 +1,4 @@
-import './coursecard.css'
+import './css/coursecard.css'
 import { IoStar } from "react-icons/io5";
 
 export default function CourseCard({ course }) {

@@ -1,4 +1,4 @@
-import './hero.css'
+import './css/hero.css'
 import { LuSearch } from "react-icons/lu";
 
 export default function Hero() {

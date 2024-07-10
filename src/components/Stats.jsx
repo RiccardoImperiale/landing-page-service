@@ -1,4 +1,4 @@
-import './stats.css'
+import './css/stats.css'
 export default function Stats() {
     return (
         <div className="container">

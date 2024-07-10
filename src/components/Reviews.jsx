@@ -1,4 +1,4 @@
-import './reviews.css'
+import './css/reviews.css'
 import reviews from '../data/reviews.js'
 import { useEffect, useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';

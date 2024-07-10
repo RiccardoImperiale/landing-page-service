@@ -1,4 +1,4 @@
-import './singlereview.css'
+import './css/singlereview.css'
 export default function SingleReview({ author, review, profession, avatar, alt }) {
     return (
         <div className="review">

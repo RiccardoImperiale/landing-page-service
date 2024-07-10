@@ -1,6 +1,6 @@
 import CourseCard from './CourseCard';
 import courses from '../data/courses.js'
-import './courses.css'
+import './css/courses.css'
 
 export default function Courses() {
 

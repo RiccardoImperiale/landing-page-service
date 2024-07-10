@@ -1,4 +1,4 @@
-import './teachercard.css'
+import './css/teachercard.css'
 export default function TeacherCard({ image, name, profession }) {
     return (
         <div className="teacher_card">

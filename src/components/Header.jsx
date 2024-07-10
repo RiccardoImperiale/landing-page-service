@@ -1,4 +1,4 @@
-import './header.css'
+import './css/header.css'
 import { useState } from 'react';
 import { Navbar, Nav, Container, Offcanvas, NavDropdown } from 'react-bootstrap';
 import { LuUserCircle2, LuHeart, LuShoppingBag, LuSearch } from "react-icons/lu";

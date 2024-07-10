@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import categories from '../data/categories';
-import './categories.css'
+import './css/categories.css'
 export default function Categories() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 

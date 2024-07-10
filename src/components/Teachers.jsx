@@ -1,4 +1,4 @@
-import './teachers.css'
+import './css/teachers.css'
 import teachers from '../data/teachers.js'
 import TeacherCard from './TeacherCard.jsx'
 export default function Teachers() {

@@ -1,4 +1,4 @@
-import './aboutus.css'
+import './css/aboutus.css'
 export default function AboutUs() {
     return (
         <div className="about_us container">

@@ -1,4 +1,4 @@
-import './values.css'
+import './css/values.css'
 export default function Values() {
     const checkIcon = () => (
         <div>
