@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs"
+import CallToAction from "./components/CallToAction"
 import Categories from "./components/Categories"
 import Courses from "./components/Courses"
 import Header from "./components/Header"
@@ -24,6 +25,7 @@ function App() {
                 <Teachers />
                 <Values />
                 <Steps />
+                <CallToAction />
             </main>
         </>
     )

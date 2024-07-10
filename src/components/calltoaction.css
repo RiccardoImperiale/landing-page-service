@@ -1,0 +1,34 @@
+.call_to_action {
+    background-color: #FFEDD3;
+    padding: 8rem 0;
+
+    input {
+        color: var(--cc-accent-secondary);
+        margin-top: 1rem;
+
+        &::placeholder {
+            color: gray;
+            font-weight: 500;
+        }
+
+        &:focus {
+            outline-color: var(--cc-accent-secondary-light);
+        }
+    }
+
+}
+
+@media (min-width: 991px) {
+
+    .call_to_action {
+        .container_sm {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .text,
+    .buttons {
+        width: 50%;
+    }
+}

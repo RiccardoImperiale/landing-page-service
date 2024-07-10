@@ -21,6 +21,7 @@ h2 {
   font-size: 2rem;
   font-weight: var(--cc-font-bold);
   padding-bottom: .5rem;
+  text-transform: capitalize;
 }
 
 h5 {
