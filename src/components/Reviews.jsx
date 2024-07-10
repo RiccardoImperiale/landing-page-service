@@ -1,14 +1,15 @@
 import './reviews.css'
-import { useEffect, useState } from 'react';
+import reviews from '../data/reviews.js'
+import { useEffect, useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import SingleReview from './SingleReview';
 
 export default function Reviews() {
     const [containerClass, setContainerClass] = useState('');
-
+    const swiperRef = useRef(null);
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 991) {
@@ -35,24 +36,27 @@ export default function Reviews() {
             </div>
             <div className={containerClass}>
                 <Swiper
-                    modules={[Pagination]}
+                    ref={swiperRef}
+                    modules={[Pagination, Autoplay]}
                     spaceBetween={50}
                     slidesPerView={3}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
                     breakpoints={{
                         0: { slidesPerView: 1 },
                         991: { slidesPerView: 3 },
                     }}
                     pagination={{ clickable: true }}
                 >
-                    <SwiperSlide>
-                        <SingleReview />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <SingleReview />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <SingleReview />
-                    </SwiperSlide>
+                    {reviews.map(review => {
+                        return (
+                            <SwiperSlide key={review.id}>
+                                <SingleReview review={review.review} avatar={review.avatar} author={review.author} profession={review.profession} />
+                            </SwiperSlide>
+                        )
+                    })}
                 </Swiper>
             </div>
         </section>

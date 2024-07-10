@@ -11,3 +11,7 @@
 
     }
 }
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--cc-accent-secondary);
+}
